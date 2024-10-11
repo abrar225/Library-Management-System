@@ -159,9 +159,4 @@ Open a Pull Request
 <div align="center">
 <p>Created with passion by the <b>FireHox</b> team.</p>
 </div>
-- [2025-01-21T10:00:10] docs(readme): improve documentation notes and usage guidelines
-- [2025-03-24T20:05:48] style: enhance README formatting and badge definitions
-- [2025-11-19T13:25:31] style: enhance README formatting and badge definitions
-- [2025-12-28T11:25:20] style: enhance README formatting and badge definitions
-- [2026-05-10T14:45:34] style: enhance README formatting and badge definitions
-- [2026-05-25T11:43:54] docs(readme): improve documentation notes and usage guidelines
+<!-- [2024-10-11T17:46:59] docs(readme): update project documentation and overview -->
