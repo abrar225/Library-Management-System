@@ -159,3 +159,4 @@ Open a Pull Request
 <div align="center">
 <p>Created with passion by the <b>FireHox</b> team.</p>
 </div>
+- [2025-01-21T10:00:10] docs(readme): improve documentation notes and usage guidelines
