@@ -160,3 +160,4 @@ Open a Pull Request
 <p>Created with passion by the <b>FireHox</b> team.</p>
 </div>
 - [2025-01-21T10:00:10] docs(readme): improve documentation notes and usage guidelines
+- [2025-03-24T20:05:48] style: enhance README formatting and badge definitions
