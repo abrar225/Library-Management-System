@@ -1,1 +1,2 @@
 - [2025-01-21T11:32:56] docs: update API references and integration details
+- [2025-05-20T16:48:39] docs: update API references and integration details
