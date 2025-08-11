@@ -170,3 +170,4 @@ Open a Pull Request
 <!-- [2025-05-14T09:45:48] style: improve formatting and badge alignment -->
 <!-- [2025-06-07T13:44:12] style: improve formatting and badge alignment -->
 <!-- [2025-06-25T12:07:49] docs(readme): update project documentation and overview -->
+<!-- [2025-08-11T21:18:52] style: improve formatting and badge alignment -->
