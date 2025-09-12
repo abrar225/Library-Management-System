@@ -126,18 +126,20 @@ USE_TZ = True
 
 # settings.py (at the bottom)
 
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/5.0/howto/static-files/
+
 STATIC_URL = 'static/'
 
-# This is where Django will collect all static files
+# This is where Django will collect all static files for production
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # This tells Django to use WhiteNoise to serve files
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-MEDIA_URL = "/media/"
-
+# Media files (User-uploaded content)
+MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / "media"
-
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
