@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'ecom.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get('postgresql://library_db_ow4m_user:H8zvDDPUgqTbFivaKFIdBEtRBmgjNN3P@dpg-d320ctripnbc73cp5vo0-a/library_db_ow4m'))
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
 }
 
 
