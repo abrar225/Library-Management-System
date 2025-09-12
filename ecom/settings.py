@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-8$j=so-8@ougp!$3yrh%%zi5ql=x72muwri$il#pqq3-juh=u9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['ecom.onrender.com']
+ALLOWED_HOSTS = ['https://library-management-system-pyq5.onrender.com']
 
 
 # Application definition
