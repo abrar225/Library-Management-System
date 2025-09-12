@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- Start: Page Banner -->
+        <section class="page-banner services-banner">
+            <div class="container">
+                <div class="banner-header">
+                    <h2>My Orders</h2>
+                    <span class="underline center"></span>
+                </div>
+                <div class="breadcrumb">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li>My Orders</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- End: Page Banner -->
+
+<div class="container">
+    <div class="table-responsive">
+      <table class="table table-striped align-middle">
+        <thead class="table-dark">
+          <tr>
+            <th>Book</th>
+            <th>Format</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for o in orders %}
+          {% for cart_item in o.my_books.all %}
+            <tr>
+              <td>
+                <strong>{{ cart_item.book.name }}</strong><br>
+                <small class="text-muted">by {{ cart_item.book.author }}</small>
+              </td>
+              <td>{{ cart_item.book.format }}</td>
+              <td>{{ cart_item.quantity }}</td>
+              <td>Rs. {{ cart_item.sub_total }}</td>
+              <td>
+                  <a href="/order_success/{{o.id}}" target="_blank" class="btn btn-sm btn-outline-secondary">
+                    <i class="fas fa-eye icon"></i>
+                  </a>
+              </td>
+            </tr>
+          {% endfor %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+</div>
+
+{% endblock %}
