@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-8$j=so-8@ougp!$3yrh%%zi5ql=x72muwri$il#pqq3-juh=u9'
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -59,7 +59,7 @@ ROOT_URLCONF = 'ecom.urls'
 
 LOGIN_URL = "/logreg/"
 
-RECAPTCHA_SECRET_KEY = "enter_secret_key_here"
+RECAPTCHA_SECRET_KEY = os.environ.get('RECAPTCHA_SECRET_KEY')
 
 TEMPLATES = [
     {
@@ -144,5 +144,5 @@ MEDIA_ROOT = BASE_DIR / "media"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-RAZORPAY_KEY_ID = 'rzp_test_F9gRSjaJozWYhc'
-RAZORPAY_KEY_SECRET = 'tSdNYZSrIL2xf86MVtj4J3MY'
+RAZORPAY_KEY_ID = os.environ.get('RAZORPAY_KEY_ID')
+RAZORPAY_KEY_SECRET = os.environ.get('RAZORPAY_KEY_SECRET')
