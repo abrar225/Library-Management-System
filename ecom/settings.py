@@ -28,7 +28,14 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://library-management-system-1-pqfh.onrender.com']
+# settings.py
+
+ALLOWED_HOSTS = [
+    'library-management-system-1-pqfh.onrender.com', # <-- ADD THIS NEW URL
+    'library-management-system-pyq5.onrender.com',   # <-- Keep the old one too
+    '127.0.0.1',
+    'localhost'
+]
 
 
 # Application definition
