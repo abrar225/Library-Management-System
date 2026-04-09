@@ -176,3 +176,4 @@ Open a Pull Request
 <!-- [2026-01-15T21:00:58] docs(readme): update project documentation and overview -->
 <!-- [2026-02-05T09:56:56] docs(readme): update project documentation and overview -->
 <!-- [2026-02-17T19:26:17] style: improve formatting and badge alignment -->
+<!-- [2026-04-09T09:20:00] docs(readme): update project documentation and overview -->
