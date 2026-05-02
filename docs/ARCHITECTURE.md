@@ -7,3 +7,4 @@
 <!-- [2026-04-03T09:37:39] docs: update system architecture details -->
 <!-- [2026-04-18T20:00:26] docs: update system architecture details -->
 <!-- [2026-04-26T10:08:38] docs: update system architecture details -->
+<!-- [2026-05-02T21:51:29] docs: update system architecture details -->
