@@ -164,3 +164,4 @@ Open a Pull Request
 - [2025-11-19T13:25:31] style: enhance README formatting and badge definitions
 - [2025-12-28T11:25:20] style: enhance README formatting and badge definitions
 - [2026-05-10T14:45:34] style: enhance README formatting and badge definitions
+- [2026-05-25T11:43:54] docs(readme): improve documentation notes and usage guidelines
